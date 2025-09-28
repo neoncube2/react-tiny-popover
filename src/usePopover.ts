@@ -59,8 +59,8 @@ export const usePopover = ({
     ({
       positionIndex = 0,
       parentRect = parentElement.getBoundingClientRect(),
-      childRect = childRef?.current?.getBoundingClientRect(),
-      scoutRect = scoutRef?.current?.getBoundingClientRect(),
+      childRect = childRef?.current.getBoundingClientRect(),
+      scoutRect = scoutRef?.current.getBoundingClientRect(),
       popoverRect = popoverRef.current.getBoundingClientRect(),
       boundaryRect = boundaryElement === parentElement
         ? parentRect
